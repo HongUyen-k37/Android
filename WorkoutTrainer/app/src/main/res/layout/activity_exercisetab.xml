@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/body"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="vn.husc.it.bb.workouttrainer.ExerciseTab">
+
+    <!--<ImageView-->
+        <!--android:layout_margin="0dp"-->
+        <!--android:src="@drawable/body"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent" />-->
+
+    <TextView
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:textColor="@color/primary_dark"
+        android:id="@+id/txtCategory1"
+        android:text="Legs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="330dp" />
+    <TextView
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:textColor="@color/primary_dark"
+        android:id="@+id/txtCategory2"
+        android:text="Lats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="175dp"
+        android:layout_marginLeft="23dp" />
+    <TextView
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:textColor="@color/primary_dark"
+        android:id="@+id/txtCategory3"
+        android:text="Chest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="125dp"
+        android:layout_marginLeft="38dp" />
+    <TextView
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:textColor="@color/primary_dark"
+        android:id="@+id/txtCategory4"
+        android:text="Shoulder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="105dp"
+        android:layout_marginLeft="285dp" />
+    <TextView
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:textColor="@color/primary_dark"
+        android:id="@+id/txtCategory5"
+        android:text="Biceps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="303dp" />
+    <TextView
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:textColor="@color/primary_dark"
+        android:id="@+id/txtCategory6"
+        android:text="Triceps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="147dp"
+        android:layout_marginLeft="300dp" />
+    <TextView
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:textColor="@color/primary_dark"
+        android:id="@+id/txtCategory7"
+        android:text="Abs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="223dp"
+        android:layout_marginLeft="36dp" />
+
+</RelativeLayout>

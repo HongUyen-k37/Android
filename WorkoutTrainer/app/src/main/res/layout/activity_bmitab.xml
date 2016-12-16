@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_bmitab"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    tools:context="vn.husc.it.bb.workouttrainer.BMITab">
+
+    <TextView
+        android:typeface="serif"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/primary_dark"
+        android:textSize="20dp"
+        android:id="@+id/txtBMIInfo"
+        android:text="@string/bmiinfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:id="@+id/txtBMITitle"
+        android:text="Đo chỉ số BMI của bạn:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:textSize="18dp"
+            android:text="Nhập chiều cao (m):"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtHeight" />
+        <EditText
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/primary"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/edttHeight"
+            android:inputType="number|numberSigned|numberDecimal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:textSize="18dp"
+        android:text="Nhập cân nặng (kg):"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtWeight" />
+    <EditText
+        android:textColor="@color/primary"
+        android:layout_marginLeft="10dp"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/edttWeight"
+        android:inputType="number|numberSigned|numberDecimal" />
+    </LinearLayout>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textColor="@color/icons"
+        android:background="@color/primary"
+        android:text="RESULT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnResult" />
+
+    <TextView
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_margin="20dp"
+        android:textAlignment="center"
+        android:id="@+id/txtResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

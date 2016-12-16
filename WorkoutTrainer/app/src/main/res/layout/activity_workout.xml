@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/activity_workout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="vn.husc.it.bb.workouttrainer.WorkoutActivity">
+
+    <TextView
+        android:typeface="serif"
+        android:textColor="@color/primary_dark"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:text="Please choose an option!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TableRow
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/option1"
+            android:id="@+id/imgOption1"
+            android:text="Option 1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            />
+        <ImageView
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/option2"
+            android:id="@+id/imgOption2"
+            android:text="Option 2"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            />
+    </TableRow>
+    <TableRow
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/option3"
+            android:id="@+id/imgOption3"
+            android:text="Option 3"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            />
+        <ImageView
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/option4"
+            android:id="@+id/imgOption4"
+            android:text="Option 4"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            />
+    </TableRow>
+    <Button
+        android:id="@+id/btnReturn"
+        android:text="RETURN TO MENU"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textColor="@color/icons"
+        android:background="@color/primary"
+        android:layout_height="wrap_content"
+        android:layout_width="150dp"/>
+
+</LinearLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/activity_workoutdetail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="vn.husc.it.bb.workouttrainer.WorkoutDetail">
+
+    <TextView
+        android:textColor="@color/primary_dark"
+        android:textSize="35dp"
+        android:textAlignment="center"
+        android:id="@+id/txtNameWorkout"
+        android:text="Tên bài"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:typeface="serif"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:id="@+id/txtNextWorkout"
+        android:text="Bài tiếp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:id="@+id/imgWorkout"
+        android:src="@drawable/legs_squat"
+        android:layout_width="200dp"
+        android:layout_height="200dp" />
+    <TableRow
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_gravity="center"
+            android:textColor="@color/icons"
+            android:background="@color/primary"
+            android:id="@+id/btnPrev"
+            android:text="PREV"
+            android:layout_width="100dp"
+            android:layout_height="30dp"/>
+        <Button
+            android:layout_gravity="center"
+            android:textColor="@color/icons"
+            android:background="@color/primary"
+            android:id="@+id/btnNext"
+            android:text="NEXT"
+            android:layout_width="100dp"
+            android:layout_height="30dp"/>
+    </TableRow>
+    <TextView
+        android:id="@+id/txtTime"
+        android:textSize="40dp"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:text="02:00"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ProgressBar
+        android:id="@+id/pbTime"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal" />
+    <Button
+        android:textColor="@color/icons"
+        android:background="@color/primary"
+        android:layout_gravity="center"
+        android:id="@+id/btnStart"
+        android:text="START"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

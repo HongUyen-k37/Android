@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">Workout Trainer</string>
+    <string name="bmiinfo">
+        <b>BMI</b> là viết tắt của <b>Body Mass Index</b> - được dùng để đánh giá mức độ gầy hay béo của một người.
+        Chỉ số này do nhà bác học người Bỉ <i>Adolphe Quetelet</i> đưa ra năm 1832."
+    </string>
+    <string name="appinfo">
+        <b>Workout Trainer</b> - \"Kết quả tối đa với đầu tư tối thiểu\".\n
+        Workout Trainer App chính là công cụ, phương pháp để giúp bạn bắt đầu và giữ thói quen tập gym cũng như thể dục hằng ngày nhằm nâng cao sức khỏe, ngoại hình, đem lại sự tự tin cho chính bạn.\n
+        Workout Trainer App sẽ giúp bạn có những trải nghiệm tập thể dục thể hình tốt nhất, chúng tôi sẽ rất trân trọng nhận những góp ý và phản hồi từ phía các bạn, để những bản cập nhật sau sẽ đầy đủ và làm hài lòng bạn nhất."
+    </string>
+    <string name="aboutus">
+        <b>&#169; Developed by BoyBeo</b>\n
+        Email: quoclee48@gmail.com\n
+        Phone: 0969748792"
+    </string>
+
 </resources>
